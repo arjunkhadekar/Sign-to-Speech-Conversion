@@ -18,5 +18,12 @@ This project implements a **real-time ASL recognition system** that translates s
 -  Temporal smoothing for stable predictions
 -  Adaptive ROI and background subtraction
 
+## Model Architecture
+- Input: 64×64×1 grayscale image
+- Conv Block 1: 32 filters → ReLU → MaxPooling → BatchNorm
+- Conv Block 2: 64 filters → ReLU → MaxPooling → BatchNorm
+- Conv Block 3: 128 filters → ReLU → MaxPooling → BatchNorm
+- Flatten → Dense (512) → Dropout (0.5) → Output (26 classes, Softmax)
+
 
 
