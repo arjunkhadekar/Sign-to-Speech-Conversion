@@ -1,5 +1,5 @@
 #  Real-Time American Sign Language (ASL) Recognition using CNNs
-> A high-accuracy, real-time ASL recognition system powered by TensorFlow and OpenCV.
+A high-accuracy, real-time ASL recognition system powered by TensorFlow and OpenCV.
 
 ---
 
